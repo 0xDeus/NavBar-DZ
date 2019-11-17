@@ -1,0 +1,92 @@
+
+    /* ================== NAV BAR-1 ================== */
+
+body {
+    background: #fafafa;
+}
+
+#nav-1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 50px;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.shadow-1 { 
+    box-shadow: 0 5px 10px rgba(89, 0, 255, 0.5), 0 15px 40px rgb(121, 83, 255);
+}
+
+.link-1 {
+    display: block;
+    color: rgb(89, 0, 255);
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    float: left;
+    border-radius: 50px;
+}
+
+.link-1:hover {
+    background-color: rgb(89, 0, 255);
+    color: white;
+    transition: 0.5s;
+}
+
+#active-1 {
+    background-color: rgb(89, 0, 255);
+    color: white;
+    border-radius: 50px;
+}
+
+#active-1:hover {
+    background-color: rgb(121, 83, 255);
+    color: white;
+}
+
+    /* ================== NAV BAR-2 ================== */
+
+#nav-2 {
+    list-style-type: none;
+    margin: 100px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.link-2 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 40px;
+    text-decoration: none;
+    float: left;
+    border: 5px solid black;
+}
+
+.link-2:hover {
+    background-color: white;
+    color: aquamarine;
+    transition: 0.5s;
+    border: 5px solid aquamarine;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+#active-2 {
+    background-color: white;
+    color: rgb(0, 216, 216);
+}
+
+#active-2:hover {
+    background-color: black;
+    color: white;
+    border: 5px solid aquamarine;
+}
+
